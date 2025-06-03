@@ -1,5 +1,6 @@
 package me.fhoz.globiamachines;
 
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.NestedItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
@@ -15,7 +16,7 @@ import javax.annotation.Nonnull;
 public final class GlobiaItemSetup {
 
     // ItemGroup
-    private static final NestedItemGroup globiamachines = new NestedItemGroup(
+    private static final ItemGroup globiamachines = new ItemGroup(
             new NamespacedKey(GlobiaMachines.getInstance(), "globiaslimefun"),
             new CustomItemStack(Material.SMOKER, "&6全球机器")
     );
